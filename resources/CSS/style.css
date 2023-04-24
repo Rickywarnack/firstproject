@@ -1,0 +1,25 @@
+header{
+    background-color: black;
+    height: 69px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: 10;
+    width: 100%;
+    top: 0px;
+    border-bottom: 1px solid seashell;
+    color: yellow;
+}
+.mainmenu{
+    flex-wrap: wrap;
+    flex-grow: 1;
+    text-align: right;
+    margin-top: 20px;
+    padding: 15px 5px;
+    color: yellow;
+}
+* {
+    background-color: black;
+    color: white;
+}
